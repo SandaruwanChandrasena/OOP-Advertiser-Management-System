@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+/* Set margin and background color for the entire page */
+body {
+    margin-top: 20px;
+    background-color: lightblue;
+    background-image: url("AdvertiserBg.jpg");
+    background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center; 
+}
+
+/* Style for the main content */
+.main {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style for the sidebar */
+
+.sidebar {
+    
+    display: block;
+    color: black;
+    border: 1px solid black;
+   
+}
+
+.sidebar a {
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+/* Style for the card layout */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+
+
+
+/* Style for the content section */
+.content {
+    background-color: whitesmoke;
+    
+}
+

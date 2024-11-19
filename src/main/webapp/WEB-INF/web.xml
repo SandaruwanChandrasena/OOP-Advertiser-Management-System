@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- connect boundary class and other 2 classes -->
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <!-- Advertiser Login -->
+         
+         <servlet>
+			<servlet-name>login</servlet-name>
+			<!-- write servelet path com...... -->
+			<servlet-class>com.Advertiser.AdvertiserLoginServlet</servlet-class>         
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>login</servlet-name>
+         	<!-- add to login jsp action -->
+         	<url-pattern>/AdvertiserLog</url-pattern>
+         </servlet-mapping>
+         
+         <!--Advertiser Insert  -->
+         
+         <servlet>
+			<servlet-name>AdvertiserInsert</servlet-name>
+			<!-- write servelet path com...... -->
+			<servlet-class>com.Advertiser.AdvertiserInsertServlet</servlet-class>         
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>AdvertiserInsert</servlet-name>
+         	<!-- add to login jsp action -->
+         	<url-pattern>/Insert</url-pattern>
+         </servlet-mapping>
+         
+         <!--Advertiser Update  -->
+         
+         <servlet>
+			<servlet-name>AdvertiserUpdate</servlet-name>
+			<!-- write servelet path com...... -->
+			<servlet-class>com.Advertiser.AdvertiserUpdateServlet</servlet-class>         
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>AdvertiserUpdate</servlet-name>
+         	<!-- add to login jsp action -->
+         	<url-pattern>/Update</url-pattern>
+         </servlet-mapping>
+         
+         <!--Advertiser Delete  -->
+         
+         <servlet>
+			<servlet-name>AdvertiserDelete</servlet-name>
+			<!-- write servelet path com...... -->
+			<servlet-class>com.Advertiser.AdvertiserDeleteServlet</servlet-class>         
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>AdvertiserDelete</servlet-name>
+         	<!-- add to login jsp action -->
+         	<url-pattern>/Delete</url-pattern>
+         </servlet-mapping>
+         
+         
+         <!-- Log out -->
+         
+         <servlet>
+			<servlet-name>advertiserLogout</servlet-name>
+			<!-- write servelet path com...... -->
+			<servlet-class>com.Advertiser.AdvertiserLogoutServlet</servlet-class>         
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>advertiserLogout</servlet-name>
+         	<!-- add to login jsp action -->
+         	<url-pattern>/advertiser_logout</url-pattern>
+         </servlet-mapping>
+         
+         
+ </web-app>
+ 
+ 
