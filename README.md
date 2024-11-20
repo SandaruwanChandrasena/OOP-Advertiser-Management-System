@@ -1,22 +1,24 @@
-# OOP-Advertiser-Management-System
-This project is a **Simple Advertiser Management System**, project during the first semester of the second year at university.
+# OOP-Advertiser-Management-System  
 
-## Technologies Used
+This project is a **Simple Advertiser Management System**, developed during the first semester of the second year at university.  
 
-- **Java**: For the core application logic.
-- **Java Servlets**: For server-side programming, integrated with:
-  - **HTML**: For structuring the web interface.
-  - **CSS**: For styling and layout design.
-  - **JavaScript**: For front-end interactivity.
-- **MySQL**: For database management and data storage.
+## Technologies Used  
 
-## Purpose
+- **Eclipse IDE**: For developing and managing the project.  
+- **Java**: For the core application logic.  
+- **Java Servlets**: For server-side programming, integrated with:  
+  - **HTML**: For structuring the web interface.  
+  - **CSS**: For styling and layout design.  
+  - **JavaScript**: For front-end interactivity.  
+- **MySQL**: For database management and data storage.  
 
-The goal of this project was to develop a functional web-based system for managing advertisements, showcasing our understanding of Java-based web development and teamwork skills.
+## Purpose  
 
-## Features
+The goal of this project was to develop a functional web-based system for managing advertisements, showcasing our understanding of Java-based web development and teamwork skills.  
 
-- User-friendly interface for managing advertisements.
-- Secure and efficient database operations.
-- Integration of front-end and back-end technologies.
-- Dynamic interactions powered by Java Servlets and JavaScript.
+## Features  
+
+- User-friendly interface for managing advertisements.  
+- Secure and efficient database operations.  
+- Integration of front-end and back-end technologies.  
+- Dynamic interactions powered by Java Servlets and JavaScript.  
